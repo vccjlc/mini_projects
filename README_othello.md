@@ -17,10 +17,11 @@ The goal is to write a program that allows two players to play a game of Othello
 
 The program, in a loop:
 
-writes a prompt indicating whose turn it is and what legal moves they can make;
+prints a prompt indicating whose turn it is and what legal moves they can make;
 reads the current player's command;
 if it reads a command to interrupt the game, it ends its work;
 if it reads a command to pass on a move, it returns to the start of the loop;
 if it reads a command to make a move, it makes that move and returns to the start of the loop.
-The program does not finish working before reaching the command to interrupt the game, even if it determines that neither player can make a legal move. It also does not recognize as an error situations where a user passes on a move or asks to interrupt the game, even though they can make a legal move.
+The program does not finish before reaching the command to interrupt the game, even if it determines that neither player can make a legal move. It also does not recognize as an error situations where a user passes on a move or asks to interrupt the game, even though they can make a legal move.
+
 It is assumed that the input is correct.
