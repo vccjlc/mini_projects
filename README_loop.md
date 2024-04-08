@@ -2,11 +2,17 @@ We consider implementation of the custom programming language "Loop". The syntax
 
 Program → SequenceOfInstructions
 SequenceOfInstructions → ε | SequenceOfInstructions Instruction
+
 Instruction → Increase | Repeat
+
 Increase → Variable
+
 Repeat → '(' Variable SequenceOfInstructions ')'
+
 Variable → 'a' | ... | 'z'
+
 The program consists of characters that in the grammar are enclosed in quotes. Apart from these, no other characters, not even spaces or line endings, may appear in the source code.
+
 
 ***********************************************************************************
 
